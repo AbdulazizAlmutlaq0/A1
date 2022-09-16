@@ -10,4 +10,4 @@ The program asks the user to enter the number integers that they prefer. They th
 
 ##
 
-I have finally decided to add a new feature. Which will usm up the total of both sorted arrays.
+This is an extremely simple program. The purpose is to get used to working with github.
