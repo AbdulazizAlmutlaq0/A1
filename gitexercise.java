@@ -31,7 +31,35 @@ class gitexercise {
         for (i = 0; i < num; i++)
             System.out.println(array[i]);
 
-       
+            int number, a, f, tempr;
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the number of integers to sort:");
+        number = in.nextInt();
+
+        int arr[] = new int[num];
+
+        System.out.println("Enter " + number + " integers: ");
+
+        for (a = 0; a < number; a++)
+            arr[a] = in.nextInt();
+
+        for (a = 0; a < ( number - 1 ); a++) {
+            for (f = 0; f < number - a - 1; f++) {
+                if (arr[f] < arr[f+1])
+                {
+                    tempr = arr[f];
+                    arr[f] = arr[f+1];
+                    arr[f+1] = tempr;
+                }
+            }
+        }
+
+        System.out.println("Sorted list of integers in a descending order is: ");
+
+        for (a = 0; a < number; a++)
+            System.out.println(arr[a]);
+
 
     }
 }
