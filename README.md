@@ -11,3 +11,7 @@ The program asks the user to enter the number integers that they prefer. They th
 ##
 
 This is an extremely simple program. The purpose is to get used to working with github.
+
+##
+
+You will notice a drastic change from the first feature branch and the second feature branch. The reason being is that I wanted to rewrite the code in a a way that would be more professional and easier to follow and test. So I rewrote the whole thing..
