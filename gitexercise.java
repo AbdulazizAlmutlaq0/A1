@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 class GitExercise {
 // comment for the video
+//another comment for the video
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -12,7 +13,7 @@ class GitExercise {
         sortAscending(array);
         printArray(array, "Sorted list of integers:");
 
-        //feature 1
+        //feature 13
         int number = getNumOfIntegers(input);
         int[] arr = getNumbersFromUser(num, input);
         sortDescending(arr);
